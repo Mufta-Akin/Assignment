@@ -1,0 +1,55 @@
+﻿@model Movie
+
+<partial name="_Breadcrumbs" model=@(new [] {
+    ("/", "Home"), 
+    ("/movie", "Movies"),
+    ($"/movie/details/{Model.Id}",$"{Model.Id}"), 
+    ("","Delete") 
+})>
+
+<div>
+        <div class="col card rounded shadow pt-3">
+            <h4 class="mb-4">Delete Movie</h4>
+
+            <h5 class="mb-4">Please confirm you want to delete the Movie?</h5>
+            
+            <hr />
+            <dl class="row">
+                <dt class= "col-sm-2">Title</dt>
+                <dd class= "col-sm-10">@Model.Title</dd>
+
+                <dt class= "col-sm-2">Director</dt>
+                <dd class= "col-sm-10">@Model.Director</dd>
+
+                <dt class= "col-sm-2">Year</dt>
+                <dd class= "col-sm-10">@Model.Year</dd>
+
+                <dt class= "col-sm-2">Duration</dt>
+                <dd class= "col-sm-10">@Model.Duration</dd>
+
+                <dt class= "col-sm-2">Budget</dt>
+                <dd class= "col-sm-10">@Model.Budget</dd>
+
+                <dt class= "col-sm-2">Genre</dt>
+                <dd class= "col-sm-10">@Model.Genre</dd>
+
+                <dt class= "col-sm-2">Cast</dt>
+                <dd class= "col-sm-10">@Model.Cast</dd>
+
+                <dt class= "col-sm-2">Plot</dt>
+                <dd class= "col-sm-10">@Model.Plot</dd>
+
+                <dt class= "col-sm-2">PosterUrl</dt>
+                <dd class= "col-sm-10">@Model.PosterUrl</dd>
+                    
+            </dl>
+        </div>
+
+        <div class="mt-4">       
+            <form asp-action="Delete" asp-action="DeleteConfirm" type="post">
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="ConfirmDelete" class="btn btn-danger" />
+                <a class="btn btn-link" asp-controller="Movie" asp-action="Index">Cancel</a>
+            </form>
+        </div>
+</div>

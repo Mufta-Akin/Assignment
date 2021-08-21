@@ -1,0 +1,47 @@
+﻿@model IList<Review>
+
+    <!-- Breadcrumbs using partial view -->
+<partial name="_Breadcrumbs" model=@(new [] {
+    ("/", "Home"),
+    ("","Reviews")
+})>
+
+<h3>List of Reviews</h3>
+
+<!-- add button to create a review  -->
+<a class="btn btn-sm btn-primary my-3" asp-controller="Review" asp-action="Create" >
+    <i class="bi bi-person-plus mr-1"></i>Create Review
+</a> 
+
+<div class ="mt-4 mb-4">
+</div>
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>CreatedOn</th>
+        <th>Comment</th>
+        <th>Rating</th>
+        <th>Action</th>
+    </thead>
+    <tbody>
+@foreach (var review in Model) {
+        <tr>
+            <td>@review.Id</td>
+            <td>@review.Name</td>
+            <td>@review.CreatedOn</td>
+            <td>@review.Comment</td>
+           <td>@review.Rating</td>
+
+            <td>
+              <form asp-action="Close">
+                <input type="hidden" name ="id" value=@review.Id />
+                <!-- <input type ="submit" value="Close" class="btn btn-link"/>  -->
+                <button class="btn btn-default" type="submit"><i class="bi bi-slash-circle"></i></button> 
+              </form>
+            </td>
+
+        </tr>
+}
+    </tbody>
+</table>

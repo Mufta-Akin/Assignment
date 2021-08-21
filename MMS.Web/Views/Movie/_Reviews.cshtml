@@ -1,0 +1,27 @@
+
+<table class="table">
+    <thead>
+        <tr>           
+            <th style="width: 60%">Comment</th>
+            <th style="width: 15%">Created</th>
+            <th style="width: 15%">Rating</th>    
+            <th style="width: 10%">Active</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var r in Model.Reviews) 
+        {
+            <tr>              
+                <td>@r.Comment</td>
+                <td>@r.CreatedOn.ToString("MM/dd/yy H:mm")</td>                 
+                <td>@r.Rating</td>
+                <td>
+                    
+                    <i class="bi bi-toggle-on" asp-condition=@(r.Active)></i>                  
+                    <i class="bi bi-toggle-off" asp-condition=@(!r.Active)></i>
+
+                </td>
+            </tr>   
+        }
+    </tbody>
+</table>

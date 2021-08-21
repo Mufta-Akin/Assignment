@@ -1,0 +1,30 @@
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\bin\Debug\net5.0\MMS.Data.deps.json
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\bin\Debug\net5.0\MMS.Data.runtimeconfig.json
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\bin\Debug\net5.0\MMS.Data.runtimeconfig.dev.json
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\bin\Debug\net5.0\MMS.Data.dll
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\bin\Debug\net5.0\ref\MMS.Data.dll
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\bin\Debug\net5.0\MMS.Data.pdb
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\obj\Debug\net5.0\MMS.Data.csprojAssemblyReference.cache
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\obj\Debug\net5.0\MMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\obj\Debug\net5.0\MMS.Data.AssemblyInfoInputs.cache
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\obj\Debug\net5.0\MMS.Data.AssemblyInfo.cs
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\obj\Debug\net5.0\MMS.Data.csproj.CoreCompileInputs.cache
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\obj\Debug\net5.0\MMS.Data.dll
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\obj\Debug\net5.0\ref\MMS.Data.dll
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\obj\Debug\net5.0\MMS.Data.pdb
+C:\Users\mufta\OneDrive\Ulster University\Semester 2\COM 741 - Web Based App Deve - 20 L7\Assignment 2021\Z-Assignment Start Backup\MMS.Data\obj\Debug\net5.0\MMS.Data.genruntimeconfig.cache
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\bin\Debug\net5.0\MMS.Data.deps.json
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\bin\Debug\net5.0\MMS.Data.runtimeconfig.json
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\bin\Debug\net5.0\MMS.Data.runtimeconfig.dev.json
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\bin\Debug\net5.0\MMS.Data.dll
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\bin\Debug\net5.0\ref\MMS.Data.dll
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\bin\Debug\net5.0\MMS.Data.pdb
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\obj\Debug\net5.0\MMS.Data.csprojAssemblyReference.cache
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\obj\Debug\net5.0\MMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\obj\Debug\net5.0\MMS.Data.AssemblyInfoInputs.cache
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\obj\Debug\net5.0\MMS.Data.AssemblyInfo.cs
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\obj\Debug\net5.0\MMS.Data.csproj.CoreCompileInputs.cache
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\obj\Debug\net5.0\MMS.Data.dll
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\obj\Debug\net5.0\ref\MMS.Data.dll
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\obj\Debug\net5.0\MMS.Data.pdb
+C:\Users\mufta\Downloads\Z-Assignment\MMS.Data\obj\Debug\net5.0\MMS.Data.genruntimeconfig.cache

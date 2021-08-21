@@ -1,0 +1,53 @@
+﻿@model IList<Movie>
+
+<h3 class="mb-3">Movie List</h3>
+
+<a class="btn btn-sm btn-primary my-3" asp-controller="Movie" asp-action="Create" >
+    <i class="bi bi-person-plus mr-1"></i>Create
+</a>  
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Year</th>
+            <th>Duration(min)</th>
+            <th>Budget</th>
+            <th>Genre</th>
+            <th>Cast</th>
+            <th>Plot</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    
+        <tbody>
+
+            @foreach (var m in Model)
+            {
+
+            <tr>
+
+                <td>@m.Title</td>
+                <td>@m.Director</td>
+                <td>@m.Year</td>
+                <td>@m.Duration</td>
+                <td>@m.Budget</td>
+                <td>@m.Genre</td>
+                <td>@m.Cast</td>
+                <td>@m.Plot</td>
+
+                <td>
+                    <div class="btn-group">
+                        <a asp-controller="Movie" asp-action="Edit" asp-route-id="@m.Id"><i class="bi bi-pencil mr-1"></i></a>
+
+                        <a asp-controller="Movie" asp-action="Details" asp-route-id="@m.Id"><i class="bi bi-book mr-1"></i></a>
+
+                        <a asp-controller="Movie" asp-action="Delete" asp-route-id="@m.Id"><i class="bi bi-trash"></i></a>
+                    </div>
+                </td>
+            </tr>
+
+            }
+        </tbody>
+    
+</table>

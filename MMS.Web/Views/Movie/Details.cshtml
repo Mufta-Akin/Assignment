@@ -1,0 +1,80 @@
+﻿@model Movie
+
+<partial name="_Breadcrumbs" model=@(new [] { ("/", "Home"), ("/movie", "Movies"), ("","Details") })>
+
+<h3 class="mt-4 mb-4">Movie Details</h3>
+
+<div class="card shadow rounded p-3">
+    <div class="row pl-3">
+        <!-- Details -->
+        <div class="col-8 pt-3">
+
+            <dl class="row">
+                <dt class= "col-5">Title</dt>
+                <dd class= "col-7">@Model.Title</dd>
+
+                <dt class= "col-5">Director</dt>
+                <dd class= "col-7">@Model.Director</dd>
+
+                <dt class= "col-5">Year</dt>
+                <dd class= "col-7">@Model.Year</dd>
+
+                <dt class= "col-sm-5">Duration</dt>
+                <dd class= "col-sm-7">@Model.Duration</dd>
+
+                <dt class= "col-sm-5">Budget</dt>
+                <dd class= "col-sm-7">@Model.Budget</dd>
+
+                <dt class= "col-sm-5">Genre</dt>
+                <dd class= "col-sm-7">@Model.Genre</dd>
+
+                <dt class= "col-sm-5">Cast</dt>
+                <dd class= "col-sm-7">@Model.Cast</dd>
+
+                <dt class= "col-sm-5">Plot</dt>
+                <dd class= "col-sm-7">@Model.Plot</dd>
+
+                <dt class= "col-5">PosterUrl</dt>
+                <dd class= "col-7">@Model.PosterUrl</dd>
+                    
+            </dl>
+        </div>
+
+         <!-- Photo -->
+        <div class="col-4">
+            <img src="@Model.PosterUrl" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- action options -->
+    <div class="row pl-3"> 
+
+        <!-- add navigation link to CreateReviewaction, passing correct route parameter --> 
+        <a asp-action="CreateReview" asp-route-id="@Model.Id" class="btn btn-sm btn-info mr-2">
+            <i class="bi bi-plus-square-dotted mr-1"></i>Add Review
+        </a> 
+
+        <!-- add navigation link to Details action, passing the correct route id parameter --> 
+        <a asp-controller="Movie" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-sm btn-light mr-2">
+            <i class="bi bi-pencil-square mr-1"></i>Edit Movie
+        </a>  
+
+        <!-- add navigation link to redirect to Index action -->
+        <a asp-controller="Movie" asp-action="Index" class="btn btn-sm btn-light mr-4">
+            <i class="bi bi-list mr-1"></i>Movie List
+        </a> 
+
+        <!-- add navigation link to Delete action, passing the correct route id parameter --> 
+        <button  data-toggle="modal" data-target="#deleteModal" class="btn btn-sm  btn-link ml-4">
+            <i class="bi bi-trash mr-1"></i>Delete Movie
+        </button>     
+    
+    </div> 
+
+<!-- Reviews -->   
+    <div class="row p-3">
+        <partial name="_Reviews" />
+    </div>
+</div>
+
+<partial name="_DeleteModal" />
